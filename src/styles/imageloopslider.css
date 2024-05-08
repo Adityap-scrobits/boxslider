@@ -7,7 +7,6 @@
 .slider-image-container {
     width: 60%;
     position: relative;
-    /* background-color: cadetblue; */
 }
 
 .image1 {
@@ -15,22 +14,21 @@
     top: 0%;
     right: 50%;
     transform: translateX(50%);
-    /* z-index: 999; */
-    animation: imagemove1 5s infinite;
+    animation: imagemove1 4s infinite;
 }
 
 .image2 {
     position: absolute;
     top: 0%;
     left: 0%;
-    animation: imagemove2 5s infinite;
+    animation: imagemove2 4s infinite;
 }
 
 .image3 {
     position: absolute;
     top: 0%;
     right: 0%;
-    animation: imagemove3 5s infinite;
+    animation: imagemove3 4s infinite;
 }
 
 .slider-content {
@@ -38,6 +36,11 @@
     padding-right: 5%;
 }
 
+.css-1fzpoyk {
+    opacity: unset !important;
+}
+
+/* 
 @keyframes imagemove1 {
     0% {
         top: 0px;
@@ -48,20 +51,22 @@
     25% {
         top: 0px;
         left: -10%;
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
 
     50% {
         top: 0px;
-        left: 50%;
-        transform: scale(0.9);
+        left: 30%;
+        transform: scale(0.8);
+        opacity: 0.5;
     }
 
     100% {
         top: 0px;
-        left: 20%;
+        left: 15%;
         transform: scale(1);
         z-index: 2;
+        opacity: 1;
     }
 }
 
@@ -69,50 +74,58 @@
     0% {
         top: 0px;
         left: 0%;
-        transform: scale(0.9);
+        transform: scale(0.8);
+        opacity: 0.5;
     }
 
     25% {
         top: 0px;
-        left: 50%;
-        transform: scale(0.9);
+        left: 30%;
+        transform: scale(0.8);
+        opacity: 0.5;
     }
 
     50% {
         top: 0px;
-        right: 10%;
+        right: 30%;
         transform: scale(1);
         z-index: 3;
+        opacity: 1;
     }
 
     100% {
         top: 0px;
         left: 0%;
-        transform: scale(0.9);
+        transform: scale(0.8);
+        opacity: 0.5;
     }
 }
 
 @keyframes imagemove3 {
     0% {
-        transform: scale(0.9);
+        transform: scale(0.8);
+        opacity: 0.5;
     }
 
     25% {
         top: 0px;
-        right: 50%;
+        right: 30%;
         transform: scale(1);
+        z-index: 4;
+        opacity: 1;
     }
 
     50% {
         top: 0px;
-        right: 100%;
-        transform: scale(0.9);
-        z-index: 3;
+        right: 50%;
+        transform: scale(0.8);
+        opacity: 0.5;
     }
 
     100% {
         top: 0px;
-        left: 100%;
-        transform: scale(0.9);
+        right: 10%;
+        transform: scale(0.8);
+        opacity: 0.5;
     }
-}
+} */
